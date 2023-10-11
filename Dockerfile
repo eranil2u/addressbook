@@ -1,3 +1,3 @@
 FROM tomcat:8
-COPY target/*.war /usr/local/tomcat/webapps/addressbook.war
+COPY ./target/*.war /usr/local/tomcat/webapps/addressbook.war
 EXPOSE 8080
